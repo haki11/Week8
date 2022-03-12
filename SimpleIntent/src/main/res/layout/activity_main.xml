@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callIntent"
+        android:text="@string/submit1"></Button>
+
+    <Button
+        android:id="@+id/btnPhoneCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:onClick="callIntent"
+        android:text="@string/submit2"></Button>
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callIntent"
+        android:text="@string/btn_display" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Another Button" />
+</LinearLayout>

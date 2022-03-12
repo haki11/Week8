@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SimpleIntents</string>
+    <string name="submit1">Call Browser</string>
+    <string name="submit2">Call Number</string>
+    <string name="title">Using Intents</string>
+    <string name="btn_display">Call Activity</string>
+
+
+</resources>
